@@ -131,7 +131,7 @@
                       duration:1
                        options:UIViewAnimationOptionTransitionFlipFromLeft | UIViewAnimationTransitionFlipFromRight 
                     animations:^{ 
-                        flipView.frame=CGRectMake(110+currentpage*650, 170, 520, 625);
+                        flipView.frame=CGRectMake(108+currentpage*650, 170, 520, 625);
                         
                     }
                     completion:^(BOOL finished) {
